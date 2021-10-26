@@ -1,10 +1,108 @@
-.root {
-  --main-color: #212121;
-  --additional-color: #757575;
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
   --accent-color: #2196f3;
-  --footer-background-color: #2f303a;
 }
 
 .body {
-  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: var(--main-text-color);
+}
+
+/* Логотип */
+
+.logo {
+  color: #000000;
+}
+.web {
+  color: var(--accent-color);
+}
+
+/* Навигация */
+
+.nav-list {
+  list-style: none;
+}
+.nav-list a {
+  color: var(--title-text-color);
+}
+.nav-list .nav:hover,
+.nav-list .nav:focus {
+  color: var(--accent-color);
+}
+
+.nav-list .nav.current {
+  color: var(--accent-color);
+}
+
+.nav-list .contacts-list {
+  list-style: none;
+}
+.contacts-list a {
+  color: var(--main-text-color);
+}
+.contacts-list .contacts:hover,
+.contacts-list.contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Герой */
+
+.hero-section {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.order-button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* Описание */
+
+.description-list {
+  list-style: none;
+}
+
+.description-title {
+  color: var(--title-text-color);
+}
+
+.main-title {
+  color: var(--title-text-color);
+}
+
+.work-list {
+  list-style: none;
+}
+
+/* Команда */
+
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.team-list {
+  list-style: none;
+}
+
+.name {
+  color: var(--title-text-color);
+}
+
+/* Футер */
+
+.footer-logo {
+  color: #ffffff;
+}
+
+.addres-list {
+  list-style: none;
+}
+
+.addres-list a {
+  color: #ffffff;
+}
+
+.footer-section {
+  background-color: #2f303a;
 }
