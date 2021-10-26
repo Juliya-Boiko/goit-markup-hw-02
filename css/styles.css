@@ -35,7 +35,8 @@
   color: var(--accent-color);
 }
 
-.nav-list .contacts-list {
+.nav-list,
+.contacts-list {
   list-style: none;
 }
 .contacts-list a {
@@ -105,4 +106,26 @@
 
 .footer-section {
   background-color: #2f303a;
+}
+
+/* Портфолио */
+.buttons-list {
+  list-style: none;
+}
+
+.buttons-list .button:hover,
+.buttons-list .button:focus {
+  background-color: var(--accent-color);
+}
+
+.progect-list {
+  list-style: none;
+}
+
+.progect-title {
+  color: var(--title-text-color);
+}
+
+.progect-item {
+  color: var(--main-text-color);
 }
