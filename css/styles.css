@@ -3,6 +3,8 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --white-color: #ffffff;
+  --background-grey: #2f303a;
+  --team-section-background: #f5f4fa;
 }
 
 .body {
@@ -42,10 +44,7 @@ ul {
 }
 
 .nav-link:hover,
-.nav-link:focus {
-  color: var(--accent-color);
-}
-
+.nav-link:focus,
 .nav-link.current {
   color: var(--accent-color);
 }
@@ -66,7 +65,7 @@ ul {
 /* Герой */
 
 .hero-section {
-  background-color: #2f303a;
+  background-color: var(--background-grey);
 }
 
 .hero-title {
@@ -114,7 +113,7 @@ ul {
 }
 
 .team-section {
-  background-color: #f5f4fa;
+  background-color: var(--team-section-background);
 }
 
 .team-name {
@@ -137,9 +136,7 @@ ul {
 
 .address-link {
   color: rgba(255, 255, 255, 60%);
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: inherit;
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
@@ -150,7 +147,7 @@ ul {
 }
 
 .footer-section {
-  background-color: #2f303a;
+  background-color: var(--background-grey);
 }
 
 /* Портфолио */
